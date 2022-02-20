@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #1D1D1B;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.description {
+    font-size: 24px;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.social-link-list a {
+    text-decoration: none;
+    color: inherit;
+}
